@@ -1,0 +1,22 @@
+{
+    "name":         "leonnleite/talk-behat",
+    "keywords":     ["BDD", "ScenarioBDD", "StoryBDD", "Examples", "Scrum", "Agile", "User story", "behat"],
+    "description":  "Pequena talk, de bdd em php com behat",
+    "type":         "study",
+    "license":      "MIT",
+    "authors":      [
+        {
+            "name":      "Leonn Leite",
+            "email":     "leonnleite@gmail.com",
+            "homepage":  "http://fb.com/leonnleite"
+        }
+    ],
+
+    "require": {
+        "behat/behat": "^3.0",
+        "phpunit/phpunit": "^5.2"
+    },
+    "autoload": {
+        "psr-4": { "Talk\\Behat\\": "src/Talk/Behat" }
+    }
+}
